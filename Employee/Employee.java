@@ -39,5 +39,9 @@ public class Employee {
 		Salary = salary;
 	}
 	
+	@Override
+	public String toString() {
+		return String.format("ID: %5d Ad: %-20s Maaş : %10.2f \n",employeeID,employeeName,Salary);
+	}
 	
 }
